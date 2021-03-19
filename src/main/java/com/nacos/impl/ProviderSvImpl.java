@@ -19,7 +19,7 @@ public class ProviderSvImpl implements ITestSv {
         try {
             Test t = new Test();
             t.setUserid("1");
-            t.setUsername("你好+hello mr.softrock");
+            t.setUsername("你好+hello mr.softrock+这把测试就成功完美了");
             return t;
         } catch (Exception e) {
             throw new RuntimeException();
