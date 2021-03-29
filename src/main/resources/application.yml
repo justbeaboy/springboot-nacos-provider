@@ -17,10 +17,15 @@ dubbo:
     owner: mr.softrock
   protocol:
     name: dubbo
-    port: -1
+    port: 20880
     payload: 20971528
   consumer:
-    timeout: 10000
+    timeout: 500000
     lazy: true
-  registry:
-    address: nacos://localhost:8848
+    check: false
+
+  registry:K
+    address: nacos://120.92.78.198:8848
+    parameters[namespace]: 8e6155c7-1149-4d45-a5f4-c87c2bbb4e47
+  metadata-report:
+   address: nacos://120.92.78.198:8848
