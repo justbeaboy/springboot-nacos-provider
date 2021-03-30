@@ -24,7 +24,6 @@ dubbo:
     lazy: true
     check: false
 
-  registry:K
     address: nacos://120.92.78.198:8848
     parameters[namespace]: 8e6155c7-1149-4d45-a5f4-c87c2bbb4e47
   metadata-report:
